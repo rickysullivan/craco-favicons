@@ -1,10 +1,8 @@
 module.exports = {
   overrideWebpackConfig: ({ webpackConfig, pluginOptions }) => {
-    const AppManifestWebpackPlugin = require("app-manifest-webpack-plugin");
+    const WebappWebpackPlugin = require("webapp-webpack-plugin");
 
-    const pluginInstance = new AppManifestWebpackPlugin(pluginOptions);
-
-    webpackConfig.plugins.push(pluginInstance);
+    webpackConfig.plugins.push(new WebappWebpackPlugin(pluginOptions));
 
     return webpackConfig;
   }
