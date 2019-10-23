@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/rickysullivan/craco-favicons#readme",
   "dependencies": {
-    "favicons-webpack-plugin": "^1.0.2"
+    "webapp-webpack-plugin": "^2.7.1"
   }
 }
