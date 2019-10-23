@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rickysullivan/craco-favicons/issues"
   },
-  "homepage": "https://github.com/rickysullivan/craco-favicons#readme"
+  "homepage": "https://github.com/rickysullivan/craco-favicons#readme",
+  "dependencies": {
+    "favicons-webpack-plugin": "^1.0.2"
+  }
 }
