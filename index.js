@@ -1,8 +1,8 @@
+const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+
 module.exports = {
   overrideWebpackConfig: ({ webpackConfig, pluginOptions }) => {
-    const WebappWebpackPlugin = require("webapp-webpack-plugin");
-
-    webpackConfig.plugins.push(new WebappWebpackPlugin(pluginOptions));
+    webpackConfig.plugins.push(new FaviconsWebpackPlugin(pluginOptions));
 
     return webpackConfig;
   }
