@@ -14,7 +14,8 @@
     "craco",
     "plugin",
     "react",
-    "favicons"
+    "favicons",
+    "webpack"
   ],
   "author": "Ricky Sullivan",
   "license": "ISC",
