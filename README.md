@@ -1,6 +1,6 @@
 # craco-favicons
 
-A craco plugin to leverage [favicons-webpack-plugin](https://github.com/jantimon/favicons-webpack-plugin), which in turn leverages [favions](https://github.com/itgalaxy/favicons) to generate icons.
+A craco plugin to leverage [favicons-webpack-plugin](https://github.com/jantimon/favicons-webpack-plugin), which in turn leverages [favicons](https://github.com/itgalaxy/favicons) to generate icons.
 
 ## Usage
 
